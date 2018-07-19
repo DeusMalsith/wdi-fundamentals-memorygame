@@ -1,0 +1,108 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+
+nav {
+	background-color: #00A6B3;
+	padding: 20px;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+footer {
+	text-transform: uppercase;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+h1, h2, h3, h6 {
+	text-transform: uppercase;
+}
+
+h1 {
+	margin: 0;
+}
+
+h6 {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Raleway;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	margin: auto 20px;
+}
+
+a:hover {
+	border-bottom: 2px solid white;
+}
+
+p {
+	font-family: 'droid serif';
+	line-height: 26px;
+	font-size: 18px;
+}
+
+img {
+	margin: 40px 8px 0px 8px;
+}
+
+.memorygame {
+	font-family: Raleway;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+}
+
+.instructions {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
